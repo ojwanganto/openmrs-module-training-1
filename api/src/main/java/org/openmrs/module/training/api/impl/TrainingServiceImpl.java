@@ -44,6 +44,11 @@ public class TrainingServiceImpl extends BaseOpenmrsService implements TrainingS
     }
 
     @Override
+    public void saveObject(Object object) {
+        //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
     public Training saveTraining(Training training) {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
