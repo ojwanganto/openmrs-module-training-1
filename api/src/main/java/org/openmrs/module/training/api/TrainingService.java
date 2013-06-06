@@ -28,9 +28,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Transactional
 public interface TrainingService extends OpenmrsService {
-     
-	/*
-	 * Add service methods here
-	 * 
-	 */
+
+    void saveObject(final Object object);
+
 }
