@@ -16,6 +16,7 @@ package org.openmrs.module.training.api.impl;
 import org.openmrs.api.impl.BaseOpenmrsService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.openmrs.module.training.Training;
 import org.openmrs.module.training.api.TrainingService;
 import org.openmrs.module.training.api.db.TrainingDAO;
 
@@ -40,5 +41,10 @@ public class TrainingServiceImpl extends BaseOpenmrsService implements TrainingS
      */
     public TrainingDAO getDao() {
 	    return dao;
+    }
+
+    @Override
+    public Training saveTraining(Training training) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }

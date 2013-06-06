@@ -14,6 +14,7 @@
 package org.openmrs.module.training.api;
 
 import org.openmrs.api.OpenmrsService;
+import org.openmrs.module.training.Training;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
@@ -33,4 +34,5 @@ public interface TrainingService extends OpenmrsService {
 	 * Add service methods here
 	 * 
 	 */
+    public Training saveTraining(Training training);
 }
